@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Main CSS-->
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Portfolio</title>
+    <!-- Typed JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <!-- Header Design -->
+    <header class="header">
+        <a href="#" class="logo"> Portfolio</a>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+            <i class="fa-solid fa-x" id="close-icon"></i>
+        </label>
+        <nav class="navbar">
+            <a href="#Home" class="active" style="--i:0;">Home</a>
+            <a href="#about" style="--i:1;">About</a>
+            <a href="#skills" style="--i:2;">Skills</a>
+            <a href="#services" style="--i:3;">Licenses and Certificates</a>
+            <a href="#portfolio" style="--i:4;">Portfolio</a>
+            <a href="#contact" style="--i:5;">Contact</a>
+        </nav>    
+    </header>
+
+    <!-- Home Section Design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, It's Me</h3>
+            <h1>SOHAM DESAI</h1>
+            <h3> And I'm a <span id="element"></span></h3>
+            <p>An Undergraduate <span>Mechanical Engineer</span> in PIMPRI CHINCHWAD COLLEGE OF ENGINEERING, NIGDI</p>
+            <div class="social-media">
+                <a href="https://www.instagram.com/sohamdesai362/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=9699275435" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/soham-desai-991a4821b" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <a href="#about" class="btn">More About Me</a>
+        </div>
+
+        <div class="home-img">
+            <img src="soham.png" alt="">
+        </div>
+    </section>
+
+    <!-- About Section Design -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="soham.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>ME</span></h2>
+            <h3>Mechanical Engineer and <span>Computer Skills Enthusiast</span></h3>
+            <p>I am an undergraduate mechanical engineering student with a <span>passion</span> for exploring the intersection of <span>Mechanical Engineering and Computer Skills</span>. My academic background provides me with a strong foundation in engineering principles, while my enthusiasm for technology drives me to constantly expand my knowledge in programming and computer science.</p>
+            <p>My passion for Computer Skills is evident in my dedication to mastering programming languages such as <span>Matlab, Python, HTML, CSS, JavaScript</span> which I use to streamline mechanical processes and enhance efficiency. I enjoy tackling complex problems and finding innovative solutions by leveraging my expertise in both mechanical engineering and computer skills. Whether it's designing mechanical systems or developing software applications.</p>
+            <p>I am constantly seeking new opportunities to expand my knowledge and contribute to projects that have a meaningful impact.</p>
+            <a href="#about-me" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <!-- Skills Section Design -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2> 
+        <div class="skills-container">
+            <div class="skill">
+                <i class="fa-brands fa-html5"></i>
+                <li><h3>html</h3>
+                    <span class="bar"><span class="html"></span></span>
+                </li>
+                <i class="fa-brands fa-css3"></i>
+                <li><h3>css</h3>
+                    <span class="bar"><span class="css"></span></span>
+                </li>
+                <img src="matlab.png" alt="matlab">
+                <li><h3>matlab</h3>
+                    <span class="bar"><span class="matlab"></span></span>
+                </li>
+                <i class="fa-brands fa-python"></i>
+                <li><h3>python</h3>
+                    <span class="bar"><span class="python"></span></span>
+                </li>
+                <i class="fa-brands fa-js"></i>
+                <li><h3>javascript</h3>
+                    <span class="bar"><span class="javascript"></span></span>
+                </li>  
+            </div>  
+        </div>        
+    </section>
+    <!-- Licences and certificates Section Design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Licences and Certificates</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <img src="matlab1.jpg" alt="matlab">
+                <h3>MATLAB</h3>
+                <p>MATLAB is a programming and numeric computing platform used by millions of engineers and scientists to analyze data, develop algorithms, and create models.</p>
+                <p>Issued on: 16 Sept 2023</p>
+                <a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=18329718-9360-47b1-868c-bf2e121e709f&" class="btn" target="_blank" rel="noopener noreferrer" onclick="alert('Redirecting to Credentials!')">Show Credentials</a>
+            </div>
+
+            <div class="services-box">
+                <img src="scaler.jpg" alt="Scaler">
+                <h3>PYTHON</h3>
+                <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.</p>
+                <p>Issued on : December 2023</p>
+                <a href="https://media.licdn.com/dms/image/D4D2DAQEvrwuILJksgg/profile-treasury-image-shrink_800_800/0/1710331142672?e=1711220400&v=beta&t=l9mItc0uOmqAjRelGBtZe5vJy6kTfeGtU8BRHpmhd4A" class="btn" target="_blank" rel="noopener noreferrer" onclick="alert('Redirecting to Credentials!')">Show Credentials</a>
+            </div>
+
+            <div class="services-box">
+                <img src="devtown.jpg" alt="Devtown">
+                <h3>Amazon Clone BootCamp</h3>
+                <p>Bootcamp on Amazon clone using HTML, CSS and JavaScript</p>
+                <a href="https://cert.devtown.in/verify/ZEcQzJ" class="btn" target="_blank" rel="noopener noreferrer" onclick="alert('Redirecting to Credentials!')">Show Credentials</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section Design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="matlab1.jpg" alt="Matlab Image">
+                <div class="portfolio-layer">
+                    <h4>ATM Machine</h4>
+                    <p>Created a code of ATM machine using Matlab</p>
+                    <a href="https://drive.google.com/file/d/1VVx7yutTRp-iN8yXh715YedKCHSEnmJR/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="excel.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Invoice Software</h4>
+                    <p>Created Invoice Software using MS Excel</p>
+                    <a href="https://drive.google.com/file/d/1y0IoHXa84fAx7pJVz5ybEyxeTQhjalnA/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Jidnaysaa.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Jidnyasaa Project</h4>
+                    <p>Design and development of a low-cost water heating solar concentration system using PCM embedded spherical porous volumetric receiver for residential and light-commercial applications.</p>
+                    <a href="https://sites.google.com/view/drjayesh/my-ongoing-projects" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="night-3078326_1280.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="tree-736885_1280.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="railroad-163518_1280.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="a83c51c9-12ec-4076-befa-d4905c72496f">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Email Address" class="contact-inputs" required>
+                <input type="number" name="number" placeholder="Mobile Number" class="contact-inputs" required>
+                <input type="text" name="Subject" placeholder="Email Subject" class="contact-inputs" required>
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message" class="contact-inputs" required></textarea>
+            </div>
+            <div class="h-captcha" data-captcha="true"></div>
+            <button type="submit" value="Send Message" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Design -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>CopyRight &copy; 2024 by SOHAM DESAI | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Main JS -->
+    <script src="main.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+</body>
+</html>
