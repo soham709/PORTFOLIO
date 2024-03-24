@@ -284,12 +284,12 @@ span{
 
 .skills-container .java {
     width: 90%;
-    animation: javascript 3s;
+    animation: java 3s;
 }
 
 .skills-container .C {
     width: 80%;
-    animation: javascript 3s;
+    animation: C 3s;
 }
 
 @keyframes html {
